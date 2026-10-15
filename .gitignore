@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local configuration and data
+.env
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*-shm
+*-wal
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm-cache/
+
+# Local tooling
+.vscode/
+.idea/
+*.log
