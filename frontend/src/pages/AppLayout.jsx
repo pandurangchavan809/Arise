@@ -12,7 +12,8 @@ import {
   X,
   Activity,
   ArrowLeft,
-  Sparkles
+  Sparkles,
+  Mic
 } from 'lucide-react';
 import { api } from '../api/client';
 
@@ -36,6 +37,13 @@ export default function AppLayout() {
       icon: MessageSquare,
       badge: 'Live Demo',
       desc: 'Interactive chat & voice demo',
+    },
+    {
+      name: 'Voice Assistant',
+      path: '/app/voice',
+      icon: Mic,
+      badge: 'Edge AI',
+      desc: 'Liquid crystal voice interface',
     },
     {
       name: 'Memory Browser',

@@ -6,6 +6,7 @@ import AssistantPage from './pages/AssistantPage';
 import MemoryBrowserPage from './pages/MemoryBrowserPage';
 import QualityInspectorPage from './pages/QualityInspectorPage';
 import DeveloperPage from './pages/DeveloperPage';
+import VoiceAssistantPage from './pages/VoiceAssistantPage';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/app" element={<AppLayout />}>
           <Route index element={<Navigate to="/app/assistant" replace />} />
           <Route path="assistant" element={<AssistantPage />} />
+          <Route path="voice" element={<VoiceAssistantPage />} />
           <Route path="memory" element={<MemoryBrowserPage />} />
           <Route path="quality" element={<QualityInspectorPage />} />
           <Route path="developer" element={<DeveloperPage />} />

@@ -108,6 +108,14 @@ export default function LandingPage() {
             </Link>
 
             <Link
+              to="/app/voice"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl bg-gradient-to-r from-cyan-600 to-teal-600 hover:from-cyan-500 hover:to-teal-500 text-white font-semibold text-base transition-all shadow-lg shadow-cyan-600/30 hover:scale-[1.02]"
+            >
+              <span>🎤 Voice Assistant</span>
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+
+            <Link
               to="/app/developer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700/80 font-medium text-base transition-all hover:scale-[1.02]"
             >
